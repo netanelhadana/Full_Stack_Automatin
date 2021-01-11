@@ -1,0 +1,297 @@
+{
+  "uid" : "9f70febc95b57748",
+  "name" : "Test01: Add Team and Verify",
+  "fullName" : "SanityTests.grafanaAPI.test01_addTeamAndVerify",
+  "historyId" : "a8de07bb68bb12862e0e1ed1e7e8c2ed",
+  "time" : {
+    "start" : 1610303410568,
+    "stop" : 1610303412145,
+    "duration" : 1577
+  },
+  "description" : "Tests Description: Add Team to Grafana and Verify it",
+  "descriptionHtml" : "<p>Tests Description: Add Team to Grafana and Verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1610303408300,
+      "stop" : 1610303410528,
+      "duration" : 2228
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Tests Description: Add Team to Grafana and Verify it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create New Team In Grafana",
+      "time" : {
+        "start" : 1610303410632,
+        "stop" : 1610303411515,
+        "duration" : 883
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Post Data To Server",
+        "time" : {
+          "start" : 1610303410641,
+          "stop" : 1610303411515,
+          "duration" : 874
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{\"name\":\"shimon\",\"email\":\"shimi3@gmail.com\"}"
+        }, {
+          "name" : "resource",
+          "value" : "/api/teams"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "shimon"
+      }, {
+        "name" : "email",
+        "value" : "shimi3@gmail.com"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get Team From Grafana",
+      "time" : {
+        "start" : 1610303411516,
+        "stop" : 1610303412135,
+        "duration" : 619
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1610303411516,
+          "stop" : 1610303411579,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Extract value From JSON Format",
+        "time" : {
+          "start" : 1610303411579,
+          "stop" : 1610303412135,
+          "duration" : 556
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@b55f5b7"
+        }, {
+          "name" : "path",
+          "value" : "teams[0].name"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Jpath",
+        "value" : "teams[0].name"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify text with text",
+      "time" : {
+        "start" : 1610303412142,
+        "stop" : 1610303412144,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actualText",
+        "value" : "shimon"
+      }, {
+        "name" : "expectedText",
+        "value" : "shimon"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterSession",
+    "time" : {
+      "start" : 1610303412218,
+      "stop" : 1610303412220,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1610303412228,
+      "stop" : 1610303412231,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_addTeamAndVerify"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "API Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-K8F9FK9"
+  }, {
+    "name" : "thread",
+    "value" : "2080@DESKTOP-K8F9FK9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7b80f9c78d79489b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610301946138,
+        "stop" : 1610301947662,
+        "duration" : 1524
+      }
+    }, {
+      "uid" : "af27a97e066e2ed9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610301910854,
+        "stop" : 1610301912490,
+        "duration" : 1636
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "749b4f4a419ddaa6",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/3/allure/#testresult/749b4f4a419ddaa6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610303410568,
+          "stop" : 1610303412145,
+          "duration" : 1577
+        }
+      }, {
+        "uid" : "cf3b1a42bcf22eb4",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/2/allure/#testresult/cf3b1a42bcf22eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610301946138,
+          "stop" : 1610301947662,
+          "duration" : 1524
+        }
+      }, {
+        "uid" : "fb82e770b05e1b63",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/1/allure/#testresult/fb82e770b05e1b63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610301910854,
+          "stop" : 1610301912490,
+          "duration" : 1636
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9f70febc95b57748.json",
+  "parameterValues" : [ ]
+}

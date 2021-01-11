@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3959" started-at="2021-01-10T18:46:52Z" finished-at="2021-01-10T18:46:56Z">
+    <groups>
+    </groups>
+    <test name="API Tests" duration-ms="3959" started-at="2021-01-10T18:46:52Z" finished-at="2021-01-10T18:46:56Z">
+      <class name="SanityTests.grafanaAPI">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:SanityTests.grafanaAPI@28276e50]" name="startSession" is-config="true" duration-ms="2238" started-at="2021-01-10T18:46:52Z" finished-at="2021-01-10T18:46:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="test01_addTeamAndVerify()[pri:0, instance:SanityTests.grafanaAPI@28276e50]" name="test01_addTeamAndVerify" duration-ms="1604" started-at="2021-01-10T18:46:55Z" description="Test01: Add Team and Verify" finished-at="2021-01-10T18:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_addTeamAndVerify -->
+        <test-method status="PASS" signature="afterSession()[pri:0, instance:SanityTests.grafanaAPI@28276e50]" name="afterSession" is-config="true" duration-ms="0" started-at="2021-01-10T18:46:56Z" finished-at="2021-01-10T18:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSession -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:SanityTests.grafanaAPI@28276e50]" name="closeSession" is-config="true" duration-ms="2" started-at="2021-01-10T18:46:56Z" finished-at="2021-01-10T18:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- SanityTests.grafanaAPI -->
+    </test> <!-- API Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

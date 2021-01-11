@@ -1,0 +1,107 @@
+{
+  "a8de07bb68bb12862e0e1ed1e7e8c2ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "749b4f4a419ddaa6",
+      "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/3/allure/#testresult/749b4f4a419ddaa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610303410568,
+        "stop" : 1610303412145,
+        "duration" : 1577
+      }
+    }, {
+      "uid" : "cf3b1a42bcf22eb4",
+      "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/2/allure/#testresult/cf3b1a42bcf22eb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610301946138,
+        "stop" : 1610301947662,
+        "duration" : 1524
+      }
+    }, {
+      "uid" : "fb82e770b05e1b63",
+      "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/1/allure/#testresult/fb82e770b05e1b63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610301910854,
+        "stop" : 1610301912490,
+        "duration" : 1636
+      }
+    } ]
+  },
+  "242af68bb55954d0c6c401337174499" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d506d5076709d138",
+      "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/3/allure/#testresult/d506d5076709d138",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610303377204,
+        "stop" : 1610303377936,
+        "duration" : 732
+      }
+    } ]
+  },
+  "979c7aa99322282895b511a722a553fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "7b130908be130712",
+      "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/3/allure/#testresult/7b130908be130712",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610303250355,
+        "stop" : 1610303252034,
+        "duration" : 1679
+      }
+    }, {
+      "uid" : "9d6c7329ed5663d9",
+      "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/2/allure/#testresult/9d6c7329ed5663d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610301441483,
+        "stop" : 1610301443127,
+        "duration" : 1644
+      }
+    }, {
+      "uid" : "895224d946cc933",
+      "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/1/allure/#testresult/895224d946cc933",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610301441483,
+        "stop" : 1610301443127,
+        "duration" : 1644
+      }
+    }, {
+      "uid" : "9f979bf2f81bc798",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/5/allure/#testresult/9f979bf2f81bc798",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610300871859,
+        "stop" : 1610300873520,
+        "duration" : 1661
+      }
+    } ]
+  }
+}

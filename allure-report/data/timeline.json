@@ -1,0 +1,196 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-K8F9FK9",
+    "children" : [ {
+      "name" : "4292@DESKTOP-K8F9FK9.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team and Verify",
+        "uid" : "af27a97e066e2ed9",
+        "parentUid" : "29f794db1f80d19e7e662e641971c719",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610301910854,
+          "stop" : 1610301912490,
+          "duration" : 1636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29f794db1f80d19e7e662e641971c719"
+    }, {
+      "name" : "6388@DESKTOP-K8F9FK9.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team and Verify",
+        "uid" : "7b80f9c78d79489b",
+        "parentUid" : "b0fed206ad03ac4fe13f13c9a9eb7433",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610301946138,
+          "stop" : 1610301947662,
+          "duration" : 1524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0fed206ad03ac4fe13f13c9a9eb7433"
+    }, {
+      "name" : "2080@DESKTOP-K8F9FK9.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team and Verify",
+        "uid" : "9f70febc95b57748",
+        "parentUid" : "4327baaeb225b53b25e4cf38fc0b4639",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610303410568,
+          "stop" : 1610303412145,
+          "duration" : 1577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4327baaeb225b53b25e4cf38fc0b4639"
+    }, {
+      "name" : "13464@DESKTOP-K8F9FK9.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana Web application with DB",
+        "uid" : "ce6f4782d6d1392",
+        "parentUid" : "6bc1752e9abe34c31e0fc0fe1abfcd88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610300871859,
+          "stop" : 1610300873520,
+          "duration" : 1661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bc1752e9abe34c31e0fc0fe1abfcd88"
+    }, {
+      "name" : "14068@DESKTOP-K8F9FK9.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana Web application with DB",
+        "uid" : "4c277ea91a7be7d4",
+        "parentUid" : "68912fa73b0b03534972dda4d0982856",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610303250355,
+          "stop" : 1610303252034,
+          "duration" : 1679
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68912fa73b0b03534972dda4d0982856"
+    }, {
+      "name" : "19720@DESKTOP-K8F9FK9.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana Web application with DB",
+        "uid" : "cc2ca9c5f6b70ae5",
+        "parentUid" : "ddaef054101b4f5bcdfd394300a8f86c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610301441483,
+          "stop" : 1610301443127,
+          "duration" : 1644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ddaef054101b4f5bcdfd394300a8f86c"
+    }, {
+      "name" : "20804@DESKTOP-K8F9FK9.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana Web application with DB",
+        "uid" : "84e26014d68c9d72",
+        "parentUid" : "e963d27f8a3de8f4c10ab2443c98ecd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610304364118,
+          "stop" : 1610304366022,
+          "duration" : 1904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "e963d27f8a3de8f4c10ab2443c98ecd1"
+    }, {
+      "name" : "20600@DESKTOP-K8F9FK9.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify screen Resolution",
+        "uid" : "e186167c848fdd11",
+        "parentUid" : "7fcfa99ae610954e6fdb663004556e58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610304392843,
+          "stop" : 1610304393524,
+          "duration" : 681
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "7fcfa99ae610954e6fdb663004556e58"
+    }, {
+      "name" : "5848@DESKTOP-K8F9FK9.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify screen Resolution",
+        "uid" : "d36efc7d61212d04",
+        "parentUid" : "8e13896548cc6e868c8834bda2d40c26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610303377204,
+          "stop" : 1610303377936,
+          "duration" : 732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e13896548cc6e868c8834bda2d40c26"
+    }, {
+      "name" : "8672@DESKTOP-K8F9FK9.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify screen Resolution",
+        "uid" : "77bf37a056694806",
+        "parentUid" : "c787d5faf7a9790dd5865ea78034195c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610302024755,
+          "stop" : 1610302025428,
+          "duration" : 673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c787d5faf7a9790dd5865ea78034195c"
+    }, {
+      "name" : "13208@DESKTOP-K8F9FK9.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team and Verify",
+        "uid" : "9f58c57ba6102737",
+        "parentUid" : "a611f51857fcbfa42e7326eb4fb1e6c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610304415074,
+          "stop" : 1610304416647,
+          "duration" : 1573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "API" ]
+      } ],
+      "uid" : "a611f51857fcbfa42e7326eb4fb1e6c7"
+    } ],
+    "uid" : "d9743f912e1ae7ef9283b7d57566546e"
+  } ]
+}

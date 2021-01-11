@@ -1,0 +1,29 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 161790
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 506179
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 471007
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1661
+  }
+} ]

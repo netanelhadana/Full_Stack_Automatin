@@ -1,0 +1,241 @@
+{
+  "uid" : "af27a97e066e2ed9",
+  "name" : "Test01: Add Team and Verify",
+  "fullName" : "SanityTests.grafanaAPI.test01_addTeamAndVerify",
+  "historyId" : "a8de07bb68bb12862e0e1ed1e7e8c2ed",
+  "time" : {
+    "start" : 1610301910854,
+    "stop" : 1610301912490,
+    "duration" : 1636
+  },
+  "description" : "Tests Description: Add Team to Grafana and Verify it",
+  "descriptionHtml" : "<p>Tests Description: Add Team to Grafana and Verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1610301908464,
+      "stop" : 1610301910818,
+      "duration" : 2354
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Tests Description: Add Team to Grafana and Verify it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create New Team In Grafana",
+      "time" : {
+        "start" : 1610301910936,
+        "stop" : 1610301911828,
+        "duration" : 892
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Post Data To Server",
+        "time" : {
+          "start" : 1610301910945,
+          "stop" : 1610301911827,
+          "duration" : 882
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{\"name\":\"shimon\",\"email\":\"shimi3@gmail.com\"}"
+        }, {
+          "name" : "resource",
+          "value" : "/api/teams"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "shimon"
+      }, {
+        "name" : "email",
+        "value" : "shimi3@gmail.com"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get Team From Grafana",
+      "time" : {
+        "start" : 1610301911828,
+        "stop" : 1610301912481,
+        "duration" : 653
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1610301911828,
+          "stop" : 1610301911881,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Extract value From JSON Format",
+        "time" : {
+          "start" : 1610301911881,
+          "stop" : 1610301912481,
+          "duration" : 600
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@3686389"
+        }, {
+          "name" : "path",
+          "value" : "teams[0].name"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Jpath",
+        "value" : "teams[0].name"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify text with text",
+      "time" : {
+        "start" : 1610301912487,
+        "stop" : 1610301912489,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actualText",
+        "value" : "shimon"
+      }, {
+        "name" : "expectedText",
+        "value" : "shimon"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterSession",
+    "time" : {
+      "start" : 1610301912566,
+      "stop" : 1610301912567,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1610301912575,
+      "stop" : 1610301912577,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_addTeamAndVerify"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-K8F9FK9"
+  }, {
+    "name" : "thread",
+    "value" : "4292@DESKTOP-K8F9FK9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af27a97e066e2ed9.json",
+  "parameterValues" : [ ]
+}

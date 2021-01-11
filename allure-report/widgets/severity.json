@@ -1,0 +1,61 @@
+[ {
+  "uid" : "9f70febc95b57748",
+  "name" : "Test01: Add Team and Verify",
+  "time" : {
+    "start" : 1610303410568,
+    "stop" : 1610303412145,
+    "duration" : 1577
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f58c57ba6102737",
+  "name" : "Test01: Add Team and Verify",
+  "time" : {
+    "start" : 1610304415074,
+    "stop" : 1610304416647,
+    "duration" : 1573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84e26014d68c9d72",
+  "name" : "Test01: Login to Grafana Web application with DB",
+  "time" : {
+    "start" : 1610304364118,
+    "stop" : 1610304366022,
+    "duration" : 1904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c277ea91a7be7d4",
+  "name" : "Test01: Login to Grafana Web application with DB",
+  "time" : {
+    "start" : 1610303250355,
+    "stop" : 1610303252034,
+    "duration" : 1679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e186167c848fdd11",
+  "name" : "Test01: Verify screen Resolution",
+  "time" : {
+    "start" : 1610304392843,
+    "stop" : 1610304393524,
+    "duration" : 681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d36efc7d61212d04",
+  "name" : "Test01: Verify screen Resolution",
+  "time" : {
+    "start" : 1610303377204,
+    "stop" : 1610303377936,
+    "duration" : 732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

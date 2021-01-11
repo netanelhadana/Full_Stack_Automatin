@@ -1,0 +1,318 @@
+{
+  "uid" : "4c277ea91a7be7d4",
+  "name" : "Test01: Login to Grafana Web application with DB",
+  "fullName" : "SanityTests.grafanaWebDB.test01_login",
+  "historyId" : "979c7aa99322282895b511a722a553fb",
+  "time" : {
+    "start" : 1610303250355,
+    "stop" : 1610303252034,
+    "duration" : 1679
+  },
+  "description" : "Tests Description: Login to Grafana Web Application with DB",
+  "descriptionHtml" : "<p>Tests Description: Login to Grafana Web Application with DB</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1610303241636,
+      "stop" : 1610303250304,
+      "duration" : 8668
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Tests Description: Login to Grafana Web Application with DB",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login Grafana Flow with DB Credentials",
+      "time" : {
+        "start" : 1610303250409,
+        "stop" : 1610303251873,
+        "duration" : 1464
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Credentials from DB",
+        "time" : {
+          "start" : 1610303250413,
+          "stop" : 1610303250599,
+          "duration" : 186
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "query",
+          "value" : "SELECT user_name, password FROM Credentials WHERE id='3'"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Send text To Text Field",
+        "time" : {
+          "start" : 1610303250628,
+          "stop" : 1610303250765,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (2c48c1b65d74b4e05b04365f53e2492c)] -> name: user]"
+        }, {
+          "name" : "value",
+          "value" : "admin"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Send text To Text Field",
+        "time" : {
+          "start" : 1610303250779,
+          "stop" : 1610303250930,
+          "duration" : 151
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (2c48c1b65d74b4e05b04365f53e2492c)] -> name: password]"
+        }, {
+          "name" : "value",
+          "value" : "admin"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1610303250948,
+          "stop" : 1610303251071,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (2c48c1b65d74b4e05b04365f53e2492c)] -> class name: css-6ntnx5-button]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1610303251147,
+          "stop" : 1610303251873,
+          "duration" : 726
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (2c48c1b65d74b4e05b04365f53e2492c)] -> class name: css-1mej2rr-button]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1610303251902,
+        "stop" : 1610303252030,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (2c48c1b65d74b4e05b04365f53e2492c)] -> xpath: //h1[@class='css-jjwbqw']]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "Welcome to Grafana"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1610303252419,
+      "stop" : 1610303253067,
+      "duration" : 648
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterSession",
+    "time" : {
+      "start" : 1610303252147,
+      "stop" : 1610303252407,
+      "duration" : 260
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.grafanaWebDB"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.grafanaWebDB"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.grafanaWebDB"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-K8F9FK9"
+  }, {
+    "name" : "thread",
+    "value" : "14068@DESKTOP-K8F9FK9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cc2ca9c5f6b70ae5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610301441483,
+        "stop" : 1610301443127,
+        "duration" : 1644
+      }
+    }, {
+      "uid" : "ce6f4782d6d1392",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610300871859,
+        "stop" : 1610300873520,
+        "duration" : 1661
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "7b130908be130712",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/3/allure/#testresult/7b130908be130712",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610303250355,
+          "stop" : 1610303252034,
+          "duration" : 1679
+        }
+      }, {
+        "uid" : "9d6c7329ed5663d9",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/2/allure/#testresult/9d6c7329ed5663d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610301441483,
+          "stop" : 1610301443127,
+          "duration" : 1644
+        }
+      }, {
+        "uid" : "895224d946cc933",
+        "reportUrl" : "http://localhost:9090/job/Project%20Full%20Stack%20Final%20Project%20API/1/allure/#testresult/895224d946cc933",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610301441483,
+          "stop" : 1610301443127,
+          "duration" : 1644
+        }
+      }, {
+        "uid" : "9f979bf2f81bc798",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20Web/5/allure/#testresult/9f979bf2f81bc798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610300871859,
+          "stop" : 1610300873520,
+          "duration" : 1661
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4c277ea91a7be7d4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,246 @@
+{
+  "uid" : "9f58c57ba6102737",
+  "name" : "Test01: Add Team and Verify",
+  "fullName" : "SanityTests.grafanaAPI.test01_addTeamAndVerify",
+  "historyId" : "c3440299c00884d2b1bc9a363aca042e",
+  "time" : {
+    "start" : 1610304415074,
+    "stop" : 1610304416647,
+    "duration" : 1573
+  },
+  "description" : "Tests Description: Add Team to Grafana and Verify it",
+  "descriptionHtml" : "<p>Tests Description: Add Team to Grafana and Verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1610304412820,
+      "stop" : 1610304415035,
+      "duration" : 2215
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Tests Description: Add Team to Grafana and Verify it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create New Team In Grafana",
+      "time" : {
+        "start" : 1610304415145,
+        "stop" : 1610304416009,
+        "duration" : 864
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Post Data To Server",
+        "time" : {
+          "start" : 1610304415155,
+          "stop" : 1610304416009,
+          "duration" : 854
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{\"name\":\"shimon\",\"email\":\"shimi3@gmail.com\"}"
+        }, {
+          "name" : "resource",
+          "value" : "/api/teams"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "shimon"
+      }, {
+        "name" : "email",
+        "value" : "shimi3@gmail.com"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get Team From Grafana",
+      "time" : {
+        "start" : 1610304416009,
+        "stop" : 1610304416635,
+        "duration" : 626
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1610304416009,
+          "stop" : 1610304416059,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Extract value From JSON Format",
+        "time" : {
+          "start" : 1610304416060,
+          "stop" : 1610304416634,
+          "duration" : 574
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@57c6feea"
+        }, {
+          "name" : "path",
+          "value" : "teams[0].name"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Jpath",
+        "value" : "teams[0].name"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify text with text",
+      "time" : {
+        "start" : 1610304416643,
+        "stop" : 1610304416645,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actualText",
+        "value" : "shimon"
+      }, {
+        "name" : "expectedText",
+        "value" : "shimon"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterSession",
+    "time" : {
+      "start" : 1610304416729,
+      "stop" : 1610304416729,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1610304416735,
+      "stop" : 1610304416736,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_addTeamAndVerify"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "API Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.grafanaAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-K8F9FK9"
+  }, {
+    "name" : "thread",
+    "value" : "13208@DESKTOP-K8F9FK9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "API"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f58c57ba6102737.json",
+  "parameterValues" : [ "API" ]
+}

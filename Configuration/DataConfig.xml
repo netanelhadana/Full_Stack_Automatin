@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <!--Web-->
+    <URL>http://localhost:1900/login</URL>
+    <BrowserName>Chrome</BrowserName>
+    <ImageRepo>./ImageRepository/</ImageRepo>
+
+    <!--TimeOut-->
+    <TimeOut>5</TimeOut>
+
+    <!--Mobile-->
+    <UDID>dc584e67</UDID>
+    <APP_PACKAGE>com.shivgadhia.android.ukMortgageCalc</APP_PACKAGE>
+    <APP_ACTIVITY>.MainActivity</APP_ACTIVITY>
+
+    <!-- Api -->
+    <URL_api>http://localhost:1900/</URL_api>
+
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/electron.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Automation/Electron API Demos-win32-ia32/Electron API Demos.exe</ElectronAppPath>
+
+    <!--Credentials-->
+    <user>admin</user>
+    <password>admin</password>
+
+    <!--Desktop-->
+    <calculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</calculatorApp>
+    <AppiumServer>http://127.0.0.1:4723/</AppiumServer>
+
+    <!--DB-->
+    <dbURL>jdbc:mysql://remotemysql.com:3306/2GpPt0hAdk</dbURL>
+    <dbUser>2GpPt0hAdk</dbUser>
+    <dbPassword>nERE4CnsWl</dbPassword>
+
+    <!--Excel-->
+    <sheetPath>./Excel/DataDrivenTesting.xlsx</sheetPath> <!--Grafana_Testcases-->
+    <sheetName>Sheet1</sheetName>
+
+</Environment>
