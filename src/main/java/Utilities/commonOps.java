@@ -185,12 +185,6 @@ public class commonOps extends base
         manageDB.initConnection(getData("dbURL"),getData("dbUser"),getData("dbPassword"));
     }
 
-//    @AfterMethod
-//    public void afterMethod()
-//    {
-//        driver.get(getData("URL"));
-//    }
-
     @AfterMethod
     public void afterSession()
     {

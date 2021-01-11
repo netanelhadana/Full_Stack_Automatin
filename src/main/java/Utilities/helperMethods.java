@@ -13,9 +13,6 @@ public class helperMethods extends commonOps
 {
     public static void takeElementScreenShot(WebElement imageElement, String imageName)
     {
-//        imageScreenShot = new AShot().coordsProvider((new WebDriverCoordsProvider().takeScreenshot(driver,imageElement))); //for win10
-//          imageScreenShot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
-
         imageScreenShot = new AShot().takeScreenshot(driver,imageElement); //for win7
         try
         {

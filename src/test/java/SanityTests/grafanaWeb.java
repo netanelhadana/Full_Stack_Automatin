@@ -11,7 +11,7 @@ import Extensions.verifications;
 @Listeners(Utilities.listeners.class)
 public class grafanaWeb extends commonOps
 {
-    //  XML File - platformName change to "web", Open grafane server
+    // Open grafane server
     @Test(description = "Test01: Login to Grafana")
     @Description("Tests Description: Login to Grafana Web App")
     public void test01_login()

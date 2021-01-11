@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 @Listeners(Utilities.listeners.class)
 public class electronDemo extends commonOps
 {
-    //Preconditions - XML File - platformName change to "electron"
     @Test(description = "Test01: Verify screen Resolution")
     @Description("Tests Description: Getting the resolution from app and Verify it")
     public void test01_screenResolution()

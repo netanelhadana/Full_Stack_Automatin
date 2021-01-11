@@ -44,7 +44,6 @@ public class DDTesting extends commonOps
                 {
                     uiActions.click(grafanaLeftMenu.btn_serverAdmin);
                     uiActions.click(grafanaAdminMenuPage.btn_logout);
-//                    uiActions.mouseHoverElements(grafanaLeftMenu.btn_admin,grafanaAdminMenuPage.btn_logout);
                     assertTrue(false);
                 }
                 else
